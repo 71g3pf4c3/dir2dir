@@ -1,0 +1,10 @@
+[package]
+name = "dir2dir-application"
+description = "dir2dir: use cases and ports"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+dir2dir-domain.workspace = true
+thiserror.workspace = true

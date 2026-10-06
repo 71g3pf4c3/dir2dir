@@ -1,0 +1,9 @@
+[package]
+name = "dir2dir-domain"
+description = "dir2dir: filesystem tree model, invariants, pure diff"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+# The domain crate is intentionally dependency-free and performs no I/O.
+# Everything here must hold with nothing but the Rust standard library.

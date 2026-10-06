@@ -1,0 +1,19 @@
+[package]
+name = "dir2dir-cli"
+description = "dir2dir: directory → directory, the over-engineered way"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "dir2dir"
+path = "src/main.rs"
+
+[dependencies]
+dir2dir-domain.workspace = true
+dir2dir-application.workspace = true
+dir2dir-infrastructure.workspace = true
+clap.workspace = true
+
+[dev-dependencies]
+tempfile.workspace = true
